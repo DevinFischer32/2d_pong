@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: cornflowerblue;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+#gameboard {
+  background-color: black;
+  border: 5px solid white;
+  width: 1200px;
+  height: 700px;
+  position: relative;
+  padding: 15px;
+  margin: auto;
+}
+.paddel {
+  background-color: aqua;
+  height: 150px;
+  width: 20px;
+}
+.ball {
+  width: 20px;
+  height: 20px;
+  border: 3px solid lightblue;
+  background-color: aliceblue;
+}
+#player1 {
+  position: absolute;
+}
+#player2 {
+  position: relative;
+  left: 1180px;
+}
+.words {
+  font-size: 72px;
+  color: aliceblue;
+  font-family: "Righteous";
+  -webkit-text-stroke: 1px lightblue;
+}
+#player_1_score {
+  top: 20px;
+  position: absolute;
+  left: 40%;
+}
+#player_2_score {
+  top: 20px;
+  position: absolute;
+  right: 40%;
+}
+#message {
+}
